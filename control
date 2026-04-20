@@ -1,0 +1,13 @@
+Package: com.trackerscan.cli
+Name: trackerscan
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: On-device detector for iOS tracking libraries. Reads
+ Objective-C class names from volatile process memory of
+ legitimately-installed apps and matches them against a bundled
+ signature list. Writes no files and does not decrypt or reproduce
+ app binaries.
+Depends: firmware (>= 15.0)
+Maintainer: hello@trackercontrol.org
+Author: hello@trackercontrol.org
+Section: Security
